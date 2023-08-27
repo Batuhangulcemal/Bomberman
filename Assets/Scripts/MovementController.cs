@@ -23,6 +23,7 @@ public class MovementController : MonoBehaviour
     {
         Rigidbody = GetComponent<Rigidbody2D>();
         _activeSpriteRenderer = spriteRendererDown;
+        
     }
 
     private void Update()
